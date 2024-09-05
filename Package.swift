@@ -55,13 +55,13 @@ let package = Package(
         		.linkedFramework("CoreMedia"), 
         	]
     	), 
-    	.binaryTarget(name: "libios", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.1/libios.zip", checksum: "52361ea90292e3240d93ad0b44dd9b77dab710ae672da981698d5097c8b518e8"), 
-    	.binaryTarget(name: "libpng16", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.1/libpng16.zip", checksum: "3eb899a3431509126b114674e9f676a6e45ab64a337e41df866260e1b7b6f6b8"), 
-    	.binaryTarget(name: "libkivy", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.1/libkivy.zip", checksum: "377851e230353d08cf3d4e04c9fd97412d53a03ebda03948e84defd791f3e60e"), 
-    	.binaryTarget(name: "libpyobjus", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.1/libpyobjus.zip", checksum: "249e67a8257238d58013e7b3c07c830e023a65572a2a714dc0b44ca4cf9e95e6"), 
-    	.binaryTarget(name: "libSDL2_mixer", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.1/libSDL2_mixer.zip", checksum: "0fd6df5f84d1697edf3cede5c1b39cdf56aae5dd215ade4cd373170d770f7f34"), 
-    	.binaryTarget(name: "libSDL2_ttf", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.1/libSDL2_ttf.zip", checksum: "813715ffeaa56f12af3479653d4e9248bbb08877b34403ebe883a717c3dc9a6d"), 
-    	.binaryTarget(name: "libSDL2_image", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.1/libSDL2_image.zip", checksum: "9f758080e79b033d8ac1eeaf64c57146dc07a491ad7ea74301d8bea2a454bb16"), 
-    	.binaryTarget(name: "libSDL2", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.1/libSDL2.zip", checksum: "890ec033ede7af27e61bade13333dce01086f3d37d9f5bf8fd5c690dc73d72f9"), 
+    	.binaryTarget(name: "libios", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.2/libios.zip", checksum: "f082e0eb876d4f7d0c861aa53a2ed1ec0ffcade8168d06ba52c859c35f1c74b1"), 
+    	.binaryTarget(name: "libpng16", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.2/libpng16.zip", checksum: "58a3229fe26ad40b1193d4b8fc1da5b7199b5f113ec905c860fe4715d022060c"), 
+    	.binaryTarget(name: "libkivy", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.2/libkivy.zip", checksum: "5c2b7cd135f43e0fb8632504d3a66844f453a2aa5d2ce8a41d58a1e36f9f40c6"), 
+    	.binaryTarget(name: "libpyobjus", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.2/libpyobjus.zip", checksum: "971738a3ff14e1729710cc9bc2b791477f8b49424799e468c67a1318628a8730"), 
+    	.binaryTarget(name: "libSDL2_mixer", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.2/libSDL2_mixer.zip", checksum: "8892e3ed7368592e7fe813290adcdf7ed5860904e9cf4977e900e04599fc7b60"), 
+    	.binaryTarget(name: "libSDL2_ttf", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.2/libSDL2_ttf.zip", checksum: "710ed6a6e7d3ad0f59f3514c245184b5c7301b02bbb230952235732f915e9eae"), 
+    	.binaryTarget(name: "libSDL2_image", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.2/libSDL2_image.zip", checksum: "8ff6214118c346b918c6fb1c1809dcbc098a2c0007217c93bcca915497fcf23d"), 
+    	.binaryTarget(name: "libSDL2", url: "https://github.com/PythonSwiftLink/KivyCore/releases/download/311.0.2/libSDL2.zip", checksum: "d593348e02d62f6a42311daca78d50142bfe7d310ee4a140d59a4254cc4644db"), 
     ]
 )
