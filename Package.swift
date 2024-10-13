@@ -44,7 +44,7 @@ let package = Package(
 			]
     	),
             //.binaryTarget(name: "libkivy", path: "xcframework/libkivy.zip")
-    	.binaryTarget(name: "libkivy", url: "https://github.com/KivySwiftLink/KivyCore/releases/download/311.0.0/libkivy.zip", checksum: "b1ed69e1b9f45d05d94e26370668c1853d0cc4614b87cbeffe49fabe7cc9a766"),
+    	.binaryTarget(name: "libkivy", url: "https://github.com/KivySwiftLink/KivyCore/releases/download/311.0.1/libkivy.zip", checksum: "83f269124ab4bdb3c8849b948e35e62034450d78077c285c975a27797ffa4ace"),
     ]
 
 )
