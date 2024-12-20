@@ -9,9 +9,9 @@ let package = Package(
         .library(name: "KivyCore", targets: ["KivyCore"])
     ],
     dependencies: [
-        .package(url: "https://github.com/KivySwiftLink/SDL2Core", .upToNextMajor("311.0.0")),
-        .package(url: "https://github.com/KivySwiftLink/PythonSwiftLink", .upToNextMajor("311.1.0")),
-        .package(url: "https://github.com/KivySwiftLink/PythonCore", .upToNextMajor("311.0.0"))
+        .package(url: "https://github.com/KivySwiftLink/SDL2Core", .upToNextMajor(from: "311.0.0")),
+        .package(url: "https://github.com/KivySwiftLink/PythonSwiftLink", .upToNextMajor(from: "311.1.0")),
+        .package(url: "https://github.com/KivySwiftLink/PythonCore", .upToNextMajor(from: "311.0.0"))
     ],
     targets: [
         .target(
@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "libkivy",
-            url: "https://github.com/kivyswiftlink/KivyCore/releases/download/311.0.6/libkivy.zip",
-            checksum: "abc445125beb059721a9ddc60e73da1a80bd0d91f0f134b5c4a67f36ae3911c8"
+            url: "https://github.com/kivyswiftlink/KivyCore/releases/download/311.0.5/libkivy.zip",
+            checksum: "670d4a3abe83064434c49550ee1fea7f0c646e04d26dcf5599384034537ea592"
         )
     ]
 )
