@@ -27,12 +27,13 @@ let package = Package(
         		.linkedFramework("Accelerate"),
         		.linkedFramework("CoreMedia"),
         		.linkedFramework("CoreVideo")
-        	]
+        	],
+            plugins: []
         ),
         .binaryTarget(
             name: "libkivy",
-            url: "https://github.com/kivyswiftlink/KivyCore/releases/download/311.0.12/libkivy.zip",
-            checksum: "a6830385dee87a36e96824c452716de649dc682542d0dd01601aa64946881867"
+            url: "https://github.com/kivyswiftlink/KivyCore/releases/download/311.0.13/libkivy.zip",
+            checksum: "667bbc7aee438d8d28b4e6d802afb7012c6f535b705a452b6c862622ce1454a3"
         )
     ]
 )
