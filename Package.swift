@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "libkivy",
-            url: "https://github.com/kivyswiftlink/KivyCore/releases/download/311.0.15/libkivy.zip",
-            checksum: "b168e47830d52caf56ff13c7c2e9eb200c12d3b1fd47d3700b85fbcd7379fcb4"
+            url: "https://github.com/kivyswiftlink/KivyCore/releases/download/311.0.5/libkivy.zip",
+            checksum: "3e752f06842de8c0d5017c7c606c9ec67cb5ddb2900f79b7479c4fd9afd470cf"
         )
     ]
 )
